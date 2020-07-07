@@ -1,0 +1,1522 @@
+﻿ /*הטמעת פונטים*/
+
+@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype'), url('../fonts/GveretLevinAlefAlefAlef-Regular.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'MPLUS1p-Regular';
+    src: url('../fonts/MPLUS1p-Regular.eot') format('embedded-opentype'), url('../fonts/Mplus1p-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.eot') format('embedded-opentype'),url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+/*______________________________________________________________________________________________________________*/
+body {
+    direction: rtl;
+    background-image: url('../images/Untitled-2.png');
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-position-x: 0px;
+    overflow-x: hidden;
+
+}
+#fontSize {
+    position:absolute;
+    top:6px;
+    right:1400px;
+    z-index:5;
+}
+/*עיצוב תמונות רקע (עלים) לכלל העמודים*/
+.l1 {
+    width: 280px;
+    position: absolute;
+    right: 1240px;
+    top: 530px;
+    z-index: -1
+}
+.l3 {
+    width: 320px;
+    position: absolute;
+    right: 1200px;
+    top: 1240px;
+    z-index: -1
+}
+.l2 {
+    width: 320px;
+    position: absolute;
+    right: -17px;
+    top: 990px;
+    z-index: -1
+}
+.l4 {
+    width: 320px;
+    position: absolute;
+    right: 1200px;
+    top: 1680px;
+    z-index: -1
+}
+.l5 {
+    width: 320px;
+    position: absolute;
+    right: -22px;
+    top: 1443px;
+    z-index:-1
+}
+.l6 {
+    width: 320px;
+    position: absolute;
+    right: 1200px;
+    top:2980px;
+    z-index: -1
+}
+
+.l7 {
+    width: 320px;
+    position: absolute;
+    right: -22px;
+    top: 2943px;
+    z-index: -1
+}
+/*_______________________________________________________________________________________________________________*/
+
+/*דף הבית*/
+
+#container {
+width: 1280px;
+margin:0 auto;
+}
+
+/*הגדרות - תפריט ראשי*/
+
+#nav1 ul li {
+    display: inline-block;
+    float: right;
+
+}
+    #nav1 ul li .navDesign {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 16pt;
+        display: block;
+        color: black;
+        background-color: white;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+        position: relative;
+        right: 80px;
+        padding-right: -5px;
+    }
+#nav1 li ul {
+    display: none;
+    position: absolute;
+
+}
+#nav1 li:hover ul {
+    display: block;
+    width: 100px;
+}
+#nav1 ul li .navDesign:hover {
+    color: black;
+    background-color: #ecf2f7;
+    border: 2px solid white;
+   
+
+}
+    #nav1 ul li:hover ul li {
+    margin-right: -40px;
+    width: 110px;
+
+}
+.logo { /*לוגו*/
+    width:120px;
+    position:relative;
+    margin-right:-150px;
+}
+#nav1 {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+/*תפריט - פירורי לחם*/
+#nav2 ol li {
+    display: inline-block;
+    padding-top: 370px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 16pt;
+}
+#nav2 ol li:after {
+ content: ">";
+}
+ #nav2 ol li:last-child:after {
+content: "";
+}
+#notActive1, #notActive2, #notActive3, #notActive4, #notActive5, #notActive6, #notActive7, #notActive8, #notActive9, #notActive10, #notActive11 {
+    cursor: not-allowed;
+}
+#circle {
+    width: 185px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    z-index: 1;
+}
+/*עיצוב תמונה - header*/
+#woman {
+    width: 550px;
+    position: absolute;
+    right: 1000px;
+    top: 50px;
+}
+/*עיצוב מלל פתיחה - header*/
+#paraHead {
+    font-family: 'MPLUS1p-Regular';
+    font-size: 18pt;
+    position: absolute;
+    top: 100px;
+    right: 280px;
+
+}
+#paraHead1 {
+    font-family: 'MPLUS1p-Regular';
+    font-size: 22pt;
+    position: absolute;
+    top: 270px;
+    right: 280px;
+    font-weight: bold;
+}
+span {
+    font-family: 'MPLUS1p-Regular';
+    font-size: 28pt;
+}
+
+/*פסקה ראשונה - יוגה*/
+
+/*פסקה יוגה*/
+.para1 {
+    position: absolute;
+    right: 260px;
+    top: 660px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 16pt;
+    width: 370px;
+}
+/*כותרת*/
+#heading1 {
+    position: absolute;
+    right: 360px;
+    top: 520px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 20pt;
+}
+/*כותרת 2*/
+#heading2 {
+    position: absolute;
+    right: 385px;
+    top: 580px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+/*תמונה - אליפסה*/
+.yoga {
+    width: 600px;
+    position: absolute;
+    right: 140px;
+    top: 580px;
+}
+/*תמונה - איש יוגה*/
+.manYoga {
+    width: 210px;
+    position: absolute;
+    right: 10px;
+    top: 600px;
+}
+
+/*פסקה שניה - מדיטציה*/
+
+/*פסקה - מדיטציה*/
+.para2 {
+    position: absolute;
+    right: 900px;
+    top: 980px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 16pt;
+}
+/*תמונה - אליפסה*/
+.medi {
+    width: 610px;
+    position: absolute;
+    right: 790px;
+    top: 900px;
+}
+/*(תמונה - אישה (מדיטציה*/
+.medi2 {
+    width: 280px;
+    position: absolute;
+    right: 1190px;
+    top: 720px;
+}
+/*כותרת*/ 
+#heading3 {
+    position: absolute;
+    right: 1010px;
+    top: 840px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 20pt;
+}
+/*כותרת 2*/
+#heading4 {
+    position: absolute;
+    right: 990px;
+    top: 898px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+
+/*פסקה שלישית - הטיפ השבועי*/
+
+/*קישור לעמוד הטיפים*/
+#tips a {
+    position: absolute;
+    right: 250px;
+    top: 1365px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 16pt;
+}
+/*פסקה - מלל על הפתק*/
+.para4 {
+    position: absolute;
+    right: 558px;
+    top: 1265px;
+    font-family: 'Rubik-Regular';
+    font-size: 15pt;
+    transform: rotate(-8deg);
+}
+/*תמונה - אליפסה*/
+.tips {
+    width: 610px;
+    position: absolute;
+    right: 110px;
+    top: 1210px;
+}
+/*תמונה - איש ושמש*/
+.sun {
+    width: 290px;
+    position: absolute;
+    right: 135px;
+    top: 1230px;
+}
+/*כותרת*/
+#heading5 {
+    position: absolute;
+    right: 210px;
+    top: 1160px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+/*תמונה - פתק*/
+.paper {
+    width: 295px;
+    position: absolute;
+    right: 525px;
+    top: 1195px;
+}
+/*תמונה - עיפרון*/
+.pencil {
+    width: 145px;
+    position: absolute;
+    right: 40px;
+    top: 1130px;
+}
+
+/*פסקה רביעית - מוזיקה*/
+
+/*תמונה - אליפסה*/
+.music1 {
+    width: 600px;
+    position: absolute;
+    right: 790px;
+    top: 1520px;
+}
+/*תמונה - פלייליסט*/
+.track {
+    width: 480px;
+    position: absolute;
+    right: 820px;
+    top: 1550px;
+}
+/*תמונה - אישה עם אוזניות*/
+.music2 {
+    width: 160px;
+    position: absolute;
+    right:1290px;
+    top: 1500px;
+}
+/*כותרת*/
+#heading6 {
+    position: absolute;
+    right: 680px;
+    top: 1450px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+
+/*צור קשר*/
+
+/*תמונה - אליפסה*/
+.contact {
+    width: 400px;
+    position: absolute;
+    right: 140px;
+    top: 1610px;
+}
+/*תמונה - אנשים*/
+.contact1 {
+    width: 210px;
+    position: absolute;
+    right: 20px;
+    top: 1583px;
+}
+/*קישור לעמוד צור קשר*/
+#contact a {
+    position: absolute;
+    right: 270px;
+    top: 1680px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 32pt;
+}
+
+/*________________________________________________עמודים פנימיים____________________________________________*/
+/*הגדרות לכותרת + תמונת עמוד עליונה*/
+.topImg {
+    position: absolute;
+    right: 850px;
+    top: 70px;
+}
+
+.headerP {
+    position: absolute;
+    right: 350px;
+    top: 170px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 48px;
+}
+/*______________________________________________________________________________________________________*/
+/*עמוד - להוריד את הלחץ בבית*/
+
+/*פתק 1- קצת שמש בחיים*/
+
+/*כותרות לפתקים*/
+#tipsNotes h2 {
+    font-size: 24pt;
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+}
+/*מלל פתקים*/
+#tipsNotes p {
+    font-family: 'Rubik-Regular';
+    font-size: 16pt;
+}
+   
+/*תמונה - פתק 1*/
+#note1 img {
+    position: absolute;
+    right: 64px;
+    top: 500px;
+    z-index: -1;
+}
+/*כותרת - הגדרת מיקום*/
+#note1 h2 {
+    position:absolute;
+   right: 105px;
+    top: 545px;
+}
+/*פסקה - הגדרת מיקום*/
+#note1 p {
+    position: absolute;   
+    width: 200px;
+    right: 105px;
+    top: 737px;
+}
+
+/*פתק 2- תצחקו*/
+
+/*תמונה - פתק 2*/
+#note2 img {
+    position: absolute;
+    right: 398px;
+    top: 640px;
+    z-index: -1;
+}
+/*כותרת-הגדרת מיקום*/
+#note2 h2 {
+    position: absolute;
+    right: 500px;
+    top: 650px;
+}
+/*פסקה - הגדרת מיקום*/
+#note2 p {
+    position: absolute;
+    width: 200px;
+    right: 450px;
+    top: 700px;
+}
+
+/*פתק 3- עסו את העין השלישית*/
+
+/*תמונה - פתק 3*/
+#note3 img {
+    position: absolute;
+    right: 760px;
+    top: 530px;
+    z-index: -1;
+}
+
+/*כותרת - הגדרת מיקום*/
+#note3 h2 {
+    position: absolute;
+    right: 785px;
+    top: 535px;
+}
+/*פסקה - הגדרת מיקום*/
+#note3 p {
+    position: absolute;
+    width: 150px;
+    right: 780px;
+    top: 580px;
+}
+
+/*פתק 4- שוקולד מריר*/
+
+/*תמונה - פתק 4*/
+#note4 img {
+    position: absolute;
+    right: 1150px;
+    top: 500px;
+    z-index: -1;
+}
+ /*כותרות - הגדרת מיקום*/
+#note4 h2 {
+    width: 50px;
+    position: absolute;
+    right: 1180px;
+    top: 560px;
+}
+/*פסקה - הגדרת מיקום*/
+#note4 p {
+    width: 210px;
+    position: absolute;
+    right: 1190px;
+    top: 760px;
+}
+
+/*פתק 5- פירוק המטלות*/
+
+/*תמונה - פתק 5*/
+#note5 img {
+    position: absolute;
+    right: 200px;
+    top: 970px;
+    z-index: -1;
+}
+/*כותרות - הגדרת מיקום*/
+#note5 h2 {
+    position: absolute;
+    right: 321px;
+    top: 1000px;
+}
+/*פסקה - הגדרת מיקום*/
+#note5 p {
+    width: 200px;
+    position: absolute;
+    right: 320px;
+    top: 1050px;
+}
+
+
+/*פתק 6- יין משמח לבב אנוש*/
+
+/*תמונה - פתק 6*/
+#note6 img {
+    position: absolute;
+    right: 920px;
+    top: 950px;
+    z-index: -1;
+}
+/*כותרות - הגדרת מיקום*/
+#note6 h2 {
+    width: 130px;
+    position: absolute;
+    right: 1000px;
+    top: 990px;
+    text-align:right;
+}
+/*פסקה - הגדרת מיקום*/
+#note6 p {
+    width: 150px;
+    position: absolute;
+    right: 995px;
+    top: 1135px;
+}
+
+
+/*פתק 7 - תכתבו, תפרקו הכל על הדף*/
+
+/*תמונה - פתק 7*/
+#note7 img {
+    position: absolute;
+    right: 115px;
+    top: 1250px;
+    z-index: -1;
+}
+/*כותרת - הגדרת מיקום*/
+#note7 h2 {
+    position: absolute;
+    right: 350px;
+    top: 1271px;
+}
+/*פסקה - הגדרת מיקום*/
+#note7 p {
+    width: 270px;
+    position: absolute;
+    right: 350px;
+    top: 1320px;
+}
+
+/*פתק 8 - נשמו עמוק*/
+
+/*תמונה - פתק 8*/
+#note8 img {
+    position: absolute;
+    right: 820px;
+    top: 1250px;
+    z-index: -1;
+}
+/*כותרת - הגדרת מיקום*/
+#note8 h2 {
+    position: absolute;
+    right: 1150px;
+    top: 1278px;
+}
+/*פסקה - הגדרת מיקום*/
+#note8 p {
+    width: 180px;
+    position: absolute;
+    right: 1150px;
+    top: 1330px;
+}
+/*____________________________________________________________________________________________________*/
+/*עמוד יוגה */
+
+/*הגדרות עיצוב לכותרות*/
+#yogaPagetxt h2 {
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+/*הגדרות עיצוב לפסקאות*/
+#yogaPagetxt p {
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 16pt;
+}
+/*הגדרת עיצוב לכותרת משנית*/
+#yogaHead2 {
+    position: absolute;
+    right: 525px;
+    top: 420px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+    font-size: 32pt;
+}
+/*תמונה - אישה בצד שמאל*/
+#womann {
+    width: 570px;
+    position: absolute;
+    right: -10px;
+    top: 670px;
+}
+/*תמונה - איש בצד ימין*/
+#mann {
+    width: 1170px;
+    position: absolute;
+    right: 842px;
+    top: 550px;
+}
+/*תמונה - ריבוע 1*/
+#soul {
+    width: 570px;
+    position: absolute;
+    right: 110px;
+    top: 690px;
+}
+/*תמונה - ריבוע 2*/
+#listen {
+    width: 550px;
+    position: absolute;
+    right: 185px;
+    top: 950px;
+}
+/*תמונה - ריבוע 3*/
+#confi {
+    width: 550px;
+    position: absolute;
+    right: 245px;
+    top: 1217px;
+}
+/*תמונה - ריבוע 4*/
+#foods {
+    width: 550px;
+    position: absolute;
+    right: 370px;
+    top: 1480px;
+}
+/*תמונה - ריבוע 5*/
+#hBody {
+    width: 550px;
+    position: absolute;
+    right: 495px;
+    top: 1760px;
+}
+/*כותרת - הגדרת מיקום*/
+#t1 {
+    position: absolute;
+    right: 280px;
+    top: 640px;
+   
+}
+/*פסקה - הגדרת מיקום*/
+#p1 {
+    position: absolute;
+    right: 168px;
+    top: 735px; 
+}
+/*כותרת - הגדרת מיקום*/
+#t2 {
+    position: absolute;
+    right: 340px;
+    top: 900px;
+}
+/*פסקה - הגדרת מיקום*/
+#p2 {
+    position: absolute;
+    right: 231px;
+    top: 985px;
+}
+/*כותרת - הגדרת מיקום*/
+#t3 {
+    position: absolute;
+    right: 285px;
+    top: 1155px;
+}
+/*פסקה - הגדרת מיקום*/
+#p3 {
+    position: absolute;
+    right: 280px;
+    top: 1250px; 
+}
+/*כותרת - הגדרת מיקום*/
+#t4 {
+    position: absolute;
+    right: 385px;
+    top: 1420px;
+}
+/*פסקה - הגדרת מיקום*/
+#p4 {
+    position: absolute;
+    right: 417px;
+    top: 1505px;  
+}
+/*כותרת - הגדרת מיקום*/
+#t5 {
+    position: absolute;
+    right: 680px;
+    top: 1710px;
+}
+/*פסקה - הגדרת מיקום*/
+#p5 {
+    position: absolute;
+    right: 523px;
+    top: 1780px;
+   
+}
+/*____________________________________________________________________________________________________*/
+/*יוגה - מתחילים*/
+
+#topP p { /*תאור עמוד*/
+    position: absolute;
+    right: 490px;
+    top: 440px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 16pt;
+}
+
+#allinfo h2 { /*כותרת תנוחה*/
+    font-size: 24pt;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+}
+
+#allinfo h3 { /*כותרות משנה*/
+    text-decoration: double;
+    font-size: 18pt;
+    font-family: 'MPLUS1p-Regular';
+}
+
+#allinfo section p { /*פסקאות פנימיות*/
+    font-size: 16pt;
+    font-family: 'MPLUS1p-Regular';
+    text-align: right;
+    width: 295px;
+}
+
+
+#allinfo section .guiders { /*מדריכות*/
+    font-size: 18pt;
+    font-family: 'MPLUS1p-Regular';
+}
+
+/*תנוחת המשולש*/
+/*תמונה - עיגול 1*/
+#back1 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 550px;
+    top: 500px;
+}
+/*הגדרת מיקום - וידאו*/
+#video1 {
+    position: absolute;
+    right: 620px;
+    top: 640px;
+}
+/*כותרת*/
+#back1 h2 {
+    position: absolute;
+    right: 1115px;
+    top: 520px;
+}
+/*כותרת 2 -מדריכה*/
+#guider1 {
+    position: absolute;
+    right: 1125px;
+    top: 550px;
+}
+/*תוכן*/
+#info1 {
+    position: absolute;
+    right: 1070px;
+    top: 680px;
+}
+
+/*תנוחות המחרשה*/
+/*תמונה - עיגול 2*/
+#back2 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 50px;
+    top: 980px;
+}
+/*הגדרת מיקום - וידאו*/
+#video2 {
+    position: absolute;
+    right: 470px;
+    top: 1120px;
+}
+/*כותרת*/
+#back2 h2 {
+    position: absolute;
+    right: 185px;
+    top: 1000px;
+}
+/*כותרת 2 - מדריכה*/
+#guider2 {
+    position: absolute;
+    right: 195px;
+    top: 1035px;
+}
+/*תוכן*/
+#info2 {
+    position: absolute;
+    right: 150px;
+    top: 1140px;
+}
+
+
+/*תנוחות העץ*/
+/*תמונה - עיגול 3*/
+#back3 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 550px;
+    top: 1460px;
+}
+/*הגדרת מיקום - וידאו*/
+#video3 {
+    position: absolute;
+    right: 620px;
+    top: 1600px;
+}
+/*כותרת*/
+#back3 h2 {
+    position: absolute;
+    right: 1145px;
+    top: 1470px;
+}
+/*כותרת 2 - מדריכה*/
+#guider3 {
+    position: absolute;
+    right: 1122px;
+    top: 1510px;
+}
+/*תוכן*/
+#info3 {
+    position: absolute;
+    right: 1090px;
+    top: 1650px;
+}
+
+
+/*תנוחות חצי לוטוס*/
+
+/*תמונה - עיגול 4*/
+#back4 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 50px;
+    top: 1940px;
+}
+/*הגדרת מיקום - וידאו*/
+#video4 {
+    position: absolute;
+    right: 470px;
+    top: 2080px;
+}
+/*כותרת*/
+#back4 h2 {
+    position: absolute;
+    right: 174px;
+    top: 1960px;
+}
+/*כותרת 2 - מדריכה*/
+#guider4 {
+    position: absolute;
+    right: 195px;
+    top: 1990px;
+}
+/*תוכן*/
+#info4 {
+    position: absolute;
+    right: 150px;
+    top: 2100px;
+}
+
+/*תנוחות חצי גשר*/
+/*תמונה - עיגול 5*/
+#back5 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 550px;
+    top: 2420px;
+}
+/*הגדרת מיקום - וידאו*/
+#video5 {
+    position: absolute;
+    right: 620px;
+    top: 2560px;
+}
+/*כותרת*/
+#back5 h2 {
+    position: absolute;
+    right: 1110px;
+    top: 2440px;
+}
+/*כותרת 2 - מדריכה*/
+#guider5 {
+    position: absolute;
+    right: 1115px;
+    top: 2470px;
+}
+/*תוכן*/
+#info5 {
+    position: absolute;
+    right: 1090px;
+    top: 2540px;
+    
+}
+
+/*תנוחות החתול*/
+/*תמונה - עיגול 6*/
+#back6 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 50px;
+    top: 2900px;
+}
+/*הגדרת מיקום - וידאו*/
+#video6 {
+    position: absolute;
+    right: 470px;
+    top: 3040px;
+}
+/*כותרת*/
+#back6 h2 {
+    position: absolute;
+    right: 195px;
+    top: 2910px;
+}
+/*כותרת 2 - מדריכה*/
+#guider6 {
+    position: absolute;
+    right: 200px;
+    top: 2950px;
+}
+/*תוכן*/
+#info6 {
+    position: absolute;
+    right: 150px;
+    top: 3060px;
+}
+
+/*תנוחות הסירה*/
+/*תמונה - עיגול 7*/
+#back7 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 550px;
+    top: 3380px;
+}
+/*הגדרת מיקום - וידאו*/
+#video7 {
+    position: absolute;
+    right: 620px;
+    top: 3520px;
+}
+/*כותרת*/
+#back7 h2 {
+    position: absolute;
+    right: 1130px;
+    top: 3390px;
+}
+/*כותרת 2 - מדריכה*/ 
+#guider7 {
+    position: absolute;
+    right: 1125px;
+    top: 3430px;
+}
+/*תוכן*/
+#info7 {
+    position: absolute;
+    right: 1090px;
+    top: 3520px;
+}
+
+/*תנוחות הכיסא*/
+/*תמונה - עיגול 8*/
+#back8 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 50px;
+    top: 3860px;
+}
+/*הגדרת מיקום - וידאו*/
+#video8 {
+    position: absolute;
+    right: 470px;
+    top: 4000px;
+}
+/*כותרת*/
+#back8 h2 {
+    position: absolute;
+    right: 200px;
+    top: 3870px;
+}
+/*כותרת 2 - מדריכה*/
+#guider8 {
+    position: absolute;
+    right: 198px;
+    top: 3910px;
+}
+/*תוכן*/
+#info8 {
+    position: absolute;
+    right: 150px;
+    top: 4020px;
+}
+
+/*תנוחות הקוברה*/
+/*תמונה - עיגול 9*/
+#back9 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 550px;
+    top: 4340px;
+}
+/*הגדרת מיקום - וידאו*/
+#video9 {
+    position: absolute;
+    right: 620px;
+    top: 4480px;
+}
+/*כותרת*/
+#back9 h2 {
+    position: absolute;
+    right: 1115px;
+    top: 4350px;
+}
+/*כותרת 2 - מדריכה*/
+#guider9 {
+    position: absolute;
+    right: 1115px;
+    top: 4390px;
+}
+/*תוכן*/
+#info9 {
+    position: absolute;
+    right: 1090px;
+    top: 4510px;
+}
+
+/*תנוחות הלוחם*/
+/*תמונה - עיגול 10*/
+#back10 img {
+    width: 925px;
+    height: 460px;
+    position: absolute;
+    right: 50px;
+    top: 4820px;
+}
+/*הגדרת מיקום - וידאו*/
+#video10 {
+    position: absolute;
+    right: 470px;
+    top: 4960px;
+}
+/*כותרת*/
+#back10 h2 {
+    position: absolute;
+    right: 200px;
+    top: 4830px;
+}
+/*כותרת 2 - מדריכה*/
+#guider10 {
+    position: absolute;
+    right: 195px;
+    top: 4870px;
+}
+/*תוכן*/
+#info10 {
+    position: absolute;
+    right: 150px;
+    top: 5000px;
+}
+
+
+/*____________________________________________________________________________________________________*/
+/*אודות*/
+
+/*כותרת ראשית*/
+.moment {
+    position: absolute;
+    right: 605px;
+    top: 400px;
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    color: indianred;
+    font-size: 48px;
+}
+/*תמונה עליונה - איש*/
+#backman {
+    position: absolute;
+    top:500px;
+    right:1190px;
+}
+/*מלל - הגדרת מיקום*/
+#aboutContact {
+    margin-right: 10px;
+    margin-top: 120px;
+}
+/*פסקאות - הגדרת עיצוב*/
+    #aboutContact p {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 20px;
+    }
+/*כותרות - הגדרות עיצוב*/
+    #aboutContact h3 {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 24px;
+        text-decoration: double;
+    }
+    /*קישורים*/
+    #aboutContact a {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 20px;
+    }
+    /*רשימה - הגדרות עיצוב*/
+    #aboutContact li {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 20px;
+    }
+    /*תמונות של הצוות - הגדרת מיקום*/
+    #imagesOfUs {
+        padding-top: 45px;
+    }
+/*תמונה -שרון*/
+.sharonimg {
+    width: 150px;
+    position: relative;
+    right: 900px;
+}
+/*כותרת לתמונה*/
+.boxnoam {
+    width: 100px;
+    margin: 10px;
+    right: 170px;
+    bottom: 5px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 135px;
+}
+/*כותרת לתמונה*/
+.boxlipaz {
+    width: 100px;
+    margin: 10px;
+    right: 170px;
+    bottom: 5px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 115px;
+}
+/*כותרת לתמונה*/
+.boxhen {
+    width: 100px;
+    margin: 10px;
+    right: 170px;
+    bottom: 5px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 120px;
+}
+/*כותרת לתמונה*/
+.boxsharon {
+    width: 100px;
+    margin: 10px;
+    right: 170px;
+    bottom: 5px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 140px;
+}
+/*תמונה - חן*/
+.henimg {
+    width: 150px;
+    position: relative;
+    right: 500px;
+}
+/*תמונה - ליפז*/
+.lipazimg {
+    width: 150px;
+    position: relative;
+    right: 105px;
+}
+/*תמונה - נועם*/
+.noamimg {
+    width: 150px;
+    position: relative;
+    left: 300px;
+
+}
+/*תמונה תחתונה - איש*/
+.man2 {
+    width: 350px;
+    position: absolute;
+    right: 950px;
+    top: 1140px;
+}
+/*קישור לאתר HIT*/
+.telemweb {
+    position: relative;
+    right: 520px;
+    top: 100px;
+    font-family: 'MPLUS1p-Regular';
+    text-align: center;
+}
+/*תמונה - לוגו HIT*/
+.telemimg {
+    width: 200px;
+    position: relative;
+    right: 545px;
+    top: 110px;
+}
+
+/*--------------------------------------עמוד צור קשר---------------------------------------*/
+/*תמונה - עיגול ורוד*/
+#Pinkback1 {
+    width: 1200px;
+    position: absolute;
+    right: 150px;
+    top: 590px;
+    z-index: -1;
+}
+/*פסקה עליונה - הגדרת מיקום ועיצוב*/
+#contectUsp p {
+    font-family: 'MPLUS1p-Regular';
+    font-size: 24pt;
+    text-align: center;
+    position: absolute;
+    right: 550px;
+    top: 400px;
+}
+/*עיצוב - טופס*/
+#row {
+    position: absolute;
+    right: 300px;
+    top: 680px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 26px;
+}
+/*עיצוב -טופס*/
+#row2 {
+    position: absolute;
+    right: 850px;
+    top: 670px;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 26px;
+}
+/*תוכן פניה*/
+#ContentReferral {
+    font-size: 22px;
+    height: 260px;
+    width: 400px;
+}
+/*כפתור "שלח"*/
+#send {
+    position: absolute;
+    right: 850px;
+    top: 980px;
+    background-color: #FFF2CC;
+    color: black;
+    font-family: 'MPLUS1p-Regular';
+    font-size: 18pt;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 120px;
+}
+/*מעבר עכבר - כפתור "שלח"*/
+#contectUsp :hover #send {
+    background-color: lightpink;
+}
+/*תמונה תחתונה - איש עם מחשב*/
+ #computerman {
+    position: absolute;
+    right: 1100px;
+    top: 900px;
+    z-index: -1;
+}
+#male {
+    font-size: 22px;
+}
+
+#female {
+    font-size: 22px;
+}
+/*--------------------------------------מפת האתר---------------------------------------*/
+#mapimg { /*הגדרת עיצוב לתמונת העמוד מכיוון שהיא צרה יותר משאר התמונות בעמודים השונים ולכן צריכה להיות ממוקמת בצורה שונה*/
+    position: absolute;
+    right: 950px;
+    top: 50px;
+}
+/*הגדרת עיצוב -רשימה*/
+#siteMap ul li {
+    font-family: 'MPLUS1p-Regular';
+    list-style: none;
+    font-size: 18px;
+}
+/*שורה ראשונה בכל רשימה - הגדרת עיצוב*/
+#siteMap li:first-child {
+    font-size: 26px;
+    text-decoration: double;
+    font-weight: bold;
+}
+
+.mapul {
+    position: absolute;
+    top: 540px;
+}
+
+#map1 {
+    right: 110px;
+}
+
+#map2 {
+    right: 310px;
+}
+
+#map3 {
+    right: 590px;
+}
+
+#map4 {
+    right: 780px;
+}
+
+#map5 {
+    right: 990px;
+}
+
+
+#map6 {
+    right: 1230px;
+}
+
+#mapfriends {
+    position: absolute;
+    top: 700px;
+    right: 500px;
+}
+/*-------------------------------------------------------------*/
+/*פוטר*/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #edf2f7;
+    text-align: center;
+    padding-top:15px;
+}
+
+    footer a {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 20px;
+        margin-right: 40px;
+        color: #e8505b;
+    }
+
+    footer p {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 14px;
+        color: black;
+        padding-right: 30px;
+    }
+
+/*פוטר - עמוד בית + עמוד תנוחות בסיס{*/
+ .footer1 {
+display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1900px;
+}
+
+
+#footer2 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1180px;
+}
+
+ 
+
+ 
+#footer3 {  
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5300px;
+    
+}
+
+
+/*פוטר - עמוד להוריד את הלחץ בבית*/
+
+#footer4 {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 1500px;
+    
+}
+    #footer4 p {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 14px;
+    }
+
+
+
+
+/*פוטר - עמוד יוגה*/
+
+#footer5 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2200px;
+    
+}
+    #footer5 p {
+        font-family: 'MPLUS1p-Regular';
+        font-size: 14px;
+    }
+
+   
+
+/*פוטר - עמוד מפת האתר*/
+
+#footer6 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1390px;
+   
+}
+
+
+/*פוטר - עמוד צור קשר*/
+
+#footer7 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1290px;
+ 
+}
+
+ 
+  
+/*/*פוטר - עמוד אודות*/
+
+#footer8 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1700px;
+   
+}
+
+
+
+
+
